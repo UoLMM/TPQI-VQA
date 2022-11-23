@@ -25,7 +25,7 @@ if __name__ == '__main__':
     mos = meta_data.mos.to_numpy()
     data_length = mos.shape[0]
 
-    pca_d = 3
+    pca_d = 10
     k = 6
 
     tem_quality = np.zeros((data_length, 1))
